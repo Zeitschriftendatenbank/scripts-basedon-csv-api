@@ -7,9 +7,19 @@ alle
 ####Beschreibung
 Standard Skript für CSV Batch Import in die ZDB auf Exemplarebene. 
 ####Anmerkung
-**Das Skript ist ausdrücklich nur für den Gebrauch durch die ZDB-Redaktion. Das Skript kann durch unsachgemäßen Gebrauch großen Schaden verursachen und kann daher nur auf eigene Verantwortung nachgenutzt werden.**   
-* csvBatchTitel - Pakettitelimport aus CSV
-* csvBatchExemplar - Paketlizenzsatzimport aus CSV
+Nur in Verwendung mit csv.js
+####Hinweis
+**Das Skript ist ausdrücklich nur für den Gebrauch durch die ZDB-Redaktion. Das Skript kann durch unsachgemäßen Gebrauch großen Schaden verursachen und kann daher nur auf eigene Verantwortung nachgenutzt werden.**
+
+###Skript: csvBatchTitel
+####WinIBW-Versionen
+alle
+####Beschreibung
+Standard Skript für CSV Batch Import in die ZDB auf Titelebene.
+####Anmerkung
+Nur in Verwendung mit csv.js
+####Hinweis
+**Das Skript ist ausdrücklich nur für den Gebrauch durch die ZDB-Redaktion. Das Skript kann durch unsachgemäßen Gebrauch großen Schaden verursachen und kann daher nur auf eigene Verantwortung nachgenutzt werden.**
 
 Datei: zdbBatchMuseen.js
 WinIBW-Versionen: alle

@@ -1,7 +1,12 @@
-Datei: zdb_scripts_perUser.js
-WinIBW-Versionen: alle
-Anmerkung: Standard Scripts für CSV Batch Import. Diese Datei steht für die DNB_WinIBW im automatischen Update bereit (P:\DNB_WinIBW\WinIBW30\scripts)
-Scripts: 
+# WinIBW3-Skripte basierend auf der WinIBW-CSV-API
+
+## Datei: csvBatchExemplar.js
+###WinIBW-Versionen
+alle
+###Beschreibung
+Standard Skript für CSV Batch Import in die ZDB auf Exemplarebene. 
+###Anmerkung
+**Das Skript ist ausdrücklich nur für den ZDB-internen Gebrauch. Die Nutzung des Skripts durch kann zu  
 * csvBatchTitel - Pakettitelimport aus CSV
 * csvBatchExemplar - Paketlizenzsatzimport aus CSV
 

@@ -7,7 +7,7 @@ alle
 ####Beschreibung
 Standard Skript für CSV Batch Import in die ZDB auf Exemplarebene. 
 ####Anmerkung
-Nur in Verwendung mit csv.js
+Nur in Verwendung mit csv.js.
 ####Hinweis
 **Das Skript ist ausdrücklich nur für den Gebrauch durch die ZDB-Redaktion. Das Skript kann durch unsachgemäßen Gebrauch großen Schaden verursachen und kann daher nur auf eigene Verantwortung nachgenutzt werden.**
 
@@ -17,15 +17,18 @@ alle
 ####Beschreibung
 Standard Skript für CSV Batch Import in die ZDB auf Titelebene.
 ####Anmerkung
-Nur in Verwendung mit csv.js
+Nur in Verwendung mit csv.js.
 ####Hinweis
 **Das Skript ist ausdrücklich nur für den Gebrauch durch die ZDB-Redaktion. Das Skript kann durch unsachgemäßen Gebrauch großen Schaden verursachen und kann daher nur auf eigene Verantwortung nachgenutzt werden.**
 
-Datei: zdbBatchMuseen.js
-WinIBW-Versionen: alle
-Anmerkung: Nur für Import von Museumstiteln in die Adressdatei
-Scripts:
-* zdbBatchMuseen - benötigt Klasse CSV
+##Datei: zdbBatchMuseen.js
+###Skript: zdbBatchMuseen
+####WinIBW-Versionen:
+alle
+####Anmerkung
+Nur für Import von Museumstiteln in die Adressdatei. Nur in Verwendung mit csv.js.
+####Hinweis
+**Das Skript ist ausdrücklich nur für den Gebrauch durch die ZDB-Redaktion. Das Skript kann durch unsachgemäßen Gebrauch großen Schaden verursachen und kann daher nur auf eigene Verantwortung nachgenutzt werden.**
 
 Datei: zdb_scripte_csv.js
 WinIBW-Versionen: alle

@@ -1,12 +1,13 @@
 # WinIBW3-Skripte basierend auf der WinIBW-CSV-API
 
-## Datei: csvBatchExemplar.js
-###WinIBW-Versionen
+##Datei: csvBatchExemplar.js
+###Skript: csvBatchExemplar
+####WinIBW-Versionen
 alle
-###Beschreibung
+####Beschreibung
 Standard Skript für CSV Batch Import in die ZDB auf Exemplarebene. 
-###Anmerkung
-**Das Skript ist ausdrücklich nur für den ZDB-internen Gebrauch. Die Nutzung des Skripts durch kann zu  
+####Anmerkung
+**Das Skript ist ausdrücklich nur für den Gebrauch durch die ZDB-Redaktion. Das Skript kann durch unsachgemäßen Gebrauch großen Schaden verursachen und kann daher nur auf eigene Verantwortung nachgenutzt werden.**   
 * csvBatchTitel - Pakettitelimport aus CSV
 * csvBatchExemplar - Paketlizenzsatzimport aus CSV
 

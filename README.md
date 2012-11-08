@@ -1,32 +1,32 @@
 Datei: zdb_scripts_perUser.js
 WinIBW-Versionen: alle
-Anmerkung: Standard Scripts für CSV Batch Import. Diese Datei steht für die DNB_WinIBW im automatischen Update bereit (P:\DNB_WinIBW\WinIBW30\scripts)
+Anmerkung: Standard Scripts fÃ¼r CSV Batch Import. Diese Datei steht fÃ¼r die DNB_WinIBW im automatischen Update bereit (P:\DNB_WinIBW\WinIBW30\scripts)
 Scripts: 
 * csvBatchTitel - Pakettitelimport aus CSV
 * csvBatchExemplar - Paketlizenzsatzimport aus CSV
 
 Datei: zdbBatchMuseen.js
 WinIBW-Versionen: alle
-Anmerkung: Nur für Import von Museumstiteln in die Adressdatei
+Anmerkung: Nur fÃ¼r Import von Museumstiteln in die Adressdatei
 Scripts:
-* zdbBatchMuseen - benötigt Klasse CSV
+* zdbBatchMuseen - benÃ¶tigt Klasse CSV
 
 Datei: zdb_scripte_csv.js
 WinIBW-Versionen: alle
-Anmerkung: Alle bisherigen CSV-Importskripte (jeweils unterschiedlich für den jeweligen Anwendungsfall)
+Anmerkung: Alle bisherigen CSV-Importskripte (jeweils unterschiedlich fÃ¼r den jeweligen Anwendungsfall)
 Scripts:
-* zdbBatchWiley - URL Änderung
-* zdbBatchSage - Umfangreicher Sage Import benötigt __csvParseHRLizenz
-* __csvParseHRLizenz - für zdbBatchSage
-* csvBatchLoeschen - Funktionen für Erzeugung von Löschsätzen - NICHT mehr benutzen - BENUTZE Datei setBearbeiten.js
+* zdbBatchWiley - URL Ã„nderung
+* zdbBatchSage - Umfangreicher Sage Import benÃ¶tigt __csvParseHRLizenz
+* __csvParseHRLizenz - fÃ¼r zdbBatchSage
+* csvBatchLoeschen - Funktionen fÃ¼r Erzeugung von LÃ¶schsÃ¤tzen - NICHT mehr benutzen - BENUTZE Datei setBearbeiten.js
 * csvBatchJSTOR - Umfangreicher JSTOR Import
 
 Datei: setBearbeiten.js
 WinIBW-Versionen: alle
-Anmerkung: Skripte zum Bearbeiten von Sets. Hier müssen selber Skripte geschrieben werden. Für eine einfache Setbearbeitung BENUTZE Funktion sucheErsetze
+Anmerkung: Skripte zum Bearbeiten von Sets. Hier mÃ¼ssen selber Skripte geschrieben werden. FÃ¼r eine einfache Setbearbeitung BENUTZE Funktion sucheErsetze
 Scripts:
 * setBearbeiten - Hauptfunktion
 Callback-Funktionen:
-* __leereFunktion - zum Kopieren und Ändern
-* __setBearbeitenLokaldatenLoeschen - 08/15 Skript zum Erzeugen von Löschsätzen (alle Bestände einer Bibliothek löschen)
-* __setBearbeitenLokaldatenLoeschenOesterreich - extra für Österreich
+* __leereFunktion - zum Kopieren und Ã„ndern
+* __setBearbeitenLokaldatenLoeschen - 08/15 Skript zum Erzeugen von LÃ¶schsÃ¤tzen (alle BestÃ¤nde einer Bibliothek lÃ¶schen)
+* __setBearbeitenLokaldatenLoeschenOesterreich - extra fÃ¼r Ã–sterreich

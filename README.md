@@ -46,19 +46,28 @@ Nur URL-Änderungen in Wiley-Zeitschriften-Paketen. Nur in Verwendung mit csv.js
 ####WinIBW-Versionen:
 alle
 ####Beschreibung
-Umfangreicher Sage Import.
+Umfangreicher Sage-Import.
 ####Anmerkung
 Nur Sage-Zeitschriften-Pakete. Nur in Verwendung mit csv.js.
-*  - für zdbBatchSage
-* csvBatchLoeschen - Funktionen für Erzeugung von Löschsätzen - NICHT mehr benutzen - BENUTZE Datei setBearbeiten.js
-* csvBatchJSTOR - Umfangreicher JSTOR Import
-
-Datei: setBearbeiten.js
-WinIBW-Versionen: alle
-Anmerkung: Skripte zum Bearbeiten von Sets. Hier müssen selber Skripte geschrieben werden. Für eine einfache Setbearbeitung BENUTZE Funktion sucheErsetze
+####Hinweis
+**Das Skript ist ausdrücklich nur für den Gebrauch durch die ZDB-Redaktion. Das Skript kann durch unsachgemäßen Gebrauch großen Schaden verursachen und kann daher nur auf eigene Verantwortung nachgenutzt werden.**
+###Skript: csvBatchJSTOR
+####WinIBW-Versionen:
+alle
+####Beschreibung
+Umfangreicher JSTOR-Import.
+####Anmerkung
+Nur JSTOR-Zeitschriften-Pakete. Nur in Verwendung mit csv.js.
+####Hinweis
+**Das Skript ist ausdrücklich nur für den Gebrauch durch die ZDB-Redaktion. Das Skript kann durch unsachgemäßen Gebrauch großen Schaden verursachen und kann daher nur auf eigene Verantwortung nachgenutzt werden.**
+##Datei: setBearbeiten.js
+###Skript: setBearbeiten, __leereFunktion, __setBearbeitenLokaldatenLoeschen, __setBearbeitenLokaldatenLoeschenOesterreich
+####WinIBW-Versionen: alle
+####Beschreibung:
+Skripte zum Bearbeiten von Sets. Für eigene/spezielle Anwendungsfälle müssen selber Skripte geschrieben werden. Als *Vorlage* steht dafür das Skript *__leereFunktion* zur Verfügung. Für eine einfache Setbearbeitung eignet sich unter Umständen besser die Funktion sucheErsetze des GBV. 
 Scripts:
 * setBearbeiten - Hauptfunktion
 Callback-Funktionen:
 * __leereFunktion - zum Kopieren und Ändern
-* __setBearbeitenLokaldatenLoeschen - 08/15 Skript zum Erzeugen von Löschsätzen (alle Bestände einer Bibliothek löschen)
-* __setBearbeitenLokaldatenLoeschenOesterreich - extra für Österreich
+*  - 08/15 Skript zum Erzeugen von Löschsätzen (alle Bestände einer Bibliothek löschen)
+*  - extra für Österreich
